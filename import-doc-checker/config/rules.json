@@ -1,0 +1,33 @@
+{
+  "hs_code_length": 10,
+  "amount_tolerance": 0.01,
+  "quantity_tolerance": 0.01,
+  "weight_tolerance_pct": {
+    "warn": 0.5,
+    "error": 2.0
+  },
+  "text_similarity": {
+    "pass": 0.95,
+    "warn": 0.8
+  },
+  "hs_keyword_prefix": {
+    "wine": "2204",
+    "葡萄酒": "2204",
+    "whisky": "2208",
+    "威士忌": "2208",
+    "olive oil": "1509",
+    "橄榄油": "1509"
+  },
+  "hs_packaging_rules": [
+    {
+      "keywords": ["sparkling", "起泡"],
+      "prefix": "220410",
+      "note": "起泡葡萄酒"
+    },
+    {
+      "keywords": ["750ml"],
+      "prefix": "220421",
+      "note": "≤2L 容器装静态葡萄酒"
+    }
+  ]
+}

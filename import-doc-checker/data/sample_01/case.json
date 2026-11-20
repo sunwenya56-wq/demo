@@ -1,0 +1,98 @@
+{
+  "case_id": "HJ-2026-1118-001",
+  "invoice": {
+    "no": "INV-2026-1024",
+    "contract_no": "HJ-2026-088",
+    "date": "2026-11-02",
+    "currency": "EUR",
+    "shipper": "SAS VINS DE BORDEAUX",
+    "consignee": "SHANGHAI HONGJIU INTERNATIONAL LOGISTICS CO., LTD.",
+    "total_amount": 18500.0,
+    "total_quantity": 1200,
+    "items": [
+      {
+        "item_no": 1,
+        "description": "Château Margaux 2019",
+        "spec": "750ml x 12 BTL",
+        "hs_code": "2204210000",
+        "quantity": 600,
+        "unit": "BTL",
+        "unit_price": 12.5,
+        "amount": 7500.0,
+        "origin": "FR"
+      },
+      {
+        "item_no": 2,
+        "description": "Château Lafite Rothschild 2018",
+        "spec": "750ml x 12 BTL",
+        "hs_code": "2204100000",
+        "quantity": 360,
+        "unit": "BTL",
+        "unit_price": 22.0,
+        "amount": 7920.0,
+        "origin": "FR"
+      },
+      {
+        "item_no": 3,
+        "description": "Château Latour 2017",
+        "spec": "750ml x 12 BTL",
+        "hs_code": "220421000",
+        "quantity": 240,
+        "unit": "BTL",
+        "unit_price": 12.21,
+        "amount": 2930.0,
+        "origin": "FR"
+      }
+    ]
+  },
+  "packing_list": {
+    "no": "PL-2026-1024",
+    "invoice_ref": "INV-2026-1024",
+    "total_packages": 100,
+    "gross_weight_kg": 1800.0,
+    "net_weight_kg": 1500.0,
+    "items": [
+      {
+        "item_no": 1,
+        "description": "Chateau Margaux 2019",
+        "packages": 50,
+        "quantity": 50,
+        "unit": "CARTON",
+        "gross_weight_kg": 900.0,
+        "net_weight_kg": 750.0
+      },
+      {
+        "item_no": 2,
+        "description": "Chateau Lafite Rothschild 2018",
+        "packages": 30,
+        "quantity": 30,
+        "unit": "CARTON",
+        "gross_weight_kg": 540.0,
+        "net_weight_kg": 450.0
+      },
+      {
+        "item_no": 3,
+        "description": "Chateau Latour 2017 Red",
+        "packages": 20,
+        "quantity": 20,
+        "unit": "CARTON",
+        "gross_weight_kg": 360.0,
+        "net_weight_kg": 300.0
+      }
+    ]
+  },
+  "bill_of_lading": {
+    "no": "COSU6389201740",
+    "invoice_ref": "INV-2026-1024",
+    "contract_no": "HJ-2026-088",
+    "on_board_date": "2026-11-05",
+    "shipper": "SAS VINS DE BORDEAUX",
+    "consignee": "SHANGHAI HONGJIU INTERNATIONAL LOGISTICS CO.,LTD",
+    "port_of_loading": "LE HAVRE, FRANCE",
+    "port_of_discharge": "SHANGHAI, CHINA",
+    "packages": 99,
+    "gross_weight_kg": 1825.0,
+    "description": "WINE",
+    "items": []
+  }
+}
